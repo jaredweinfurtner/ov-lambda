@@ -34,7 +34,7 @@ I assume you already have an AWS account, so we'll just go straight into it:
    You will need to set the AWS Lambda environment variables:
 
    | Variable | Description |
-       |---|---|
+   |---|---|
    | DB_TABLE_NAME | your dynamodb table name |
    | THEATER | The theater table key in your dynamodb |
    | EMAIL_CHARSET | The SES email character set (UTF-8) |
