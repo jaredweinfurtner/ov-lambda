@@ -13,7 +13,7 @@ I assume you already have an AWS account, so we'll just go straight into it:
 1. First you'll need to create an [AWS DynamoDB](https://aws.amazon.com/dynamodb/) table with the following structure
 
    | Attribute | Type | 
-                |---|---|
+   |---|---|
    | id (partition key) | String |
    | url | String |
    | movie | String |
@@ -21,7 +21,7 @@ I assume you already have an AWS account, so we'll just go straight into it:
    and insert the following row as an example:
 
    | Attribute | Value | 
-                |---|---|
+   |---|---|
    | id | Esslingen |
    | url | https://esslingen.traumpalast.de/index.php/PID/138/R/70.html |
    | movie | \<empty\> |
